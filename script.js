@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Animation au scroll pour les éléments
     function animateOnScroll() {
-        const elements = document.querySelectorAll('.skill-category, .project-card, .timeline-item');
+        const elements = document.querySelectorAll('.skill-category, .project-card, .timeline-item, .highlight-item');
         
         elements.forEach(element => {
             const elementTop = element.getBoundingClientRect().top;
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialiser les styles pour l'animation
     function initAnimations() {
-        const elements = document.querySelectorAll('.skill-category, .project-card, .timeline-item');
+        const elements = document.querySelectorAll('.skill-category, .project-card, .timeline-item, .highlight-item');
         elements.forEach(element => {
             element.style.opacity = '0';
             element.style.transform = 'translateY(30px)';
