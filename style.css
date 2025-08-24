@@ -1,11 +1,11 @@
 /* Variables CSS pour faciliter la personnalisation */
 :root {
-    --primary-color: #8e96a4;       /* Gris plus clair pour titres / header */
-    --secondary-color: #cdded3;     /* Vert turquoise plus lumineux */
-    --accent-color: #ccecbd;        /* Bleu vif pour boutons */
-    --text-color: #2d3748;          /* Texte gris foncé mais plus lisible */
-    --light-bg: #f7fafc;            /* Fond très clair */
-    --white: #ffffff;               /* Blanc pur (cartes, formulaires) */
+    --primary-color: #ffffff;   /* Bleu-gris foncé pour titres / header */
+    --secondary-color: #8d99ae; /* Gris clair pour zones secondaires */
+    --accent-color: #ef233c;    /* Rouge vif pour boutons / actions */
+    --text-color: #2d3748;      /* Gris très foncé pour le texte */
+    --light-bg: #f8f9fa;        /* Fond clair (presque blanc) */
+    --white: #ffffff;           /* Blanc pur */
     --shadow: 0 4px 6px rgba(0,0,0,0.05);
     --transition: all 0.3s ease;
     --gradient: linear-gradient(135deg, #f7fafc, #ffffff); /* Fond dégradé très clair */
@@ -52,6 +52,7 @@ nav {
     text-decoration: none;
     transition: var(--transition);
     flex-shrink: 0;
+    margin-right: 2rem;
 }
 
 .logo:hover {
